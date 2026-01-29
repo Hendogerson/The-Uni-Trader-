@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>{{ page.date | date: "%d %b %Y" }} – Trading Log</title>
+</head>
+<body>
+
+<a href="/">← Back to months</a>
+
+<h1>Trading Log – {{ page.date | date: "%d %B %Y" }}</h1>
+
+<ul>
+  <li><strong>Instrument:</strong> {{ page.instrument }}</li>
+  <li><strong>Strategy:</strong> {{ page.strategy }}</li>
+  <li><strong>P&L:</strong> {{ page.pnl }}</li>
+</ul>
+
+<hr>
+
+{{ content }}
+
+</body>
+</html>
