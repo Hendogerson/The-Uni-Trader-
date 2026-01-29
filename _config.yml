@@ -1,0 +1,7 @@
+title: Trading Journal
+markdown: kramdown
+
+collections:
+  trades:
+    output: true
+    permalink: /trades/:name/
