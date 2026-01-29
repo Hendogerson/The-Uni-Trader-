@@ -1,2 +1,2 @@
-# Henry Regan-Elson Trading Journal 
+#  Trading Journal 
 
